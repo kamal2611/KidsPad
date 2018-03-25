@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    <drawingpad.doodle.vandu.kidspad.BrushWidthView
+        android:id="@+id/brush_width_area"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/rubber_box_height"/>
+
+
+    <SeekBar
+        android:id="@+id/brush_size_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="50"/>
+
+
+    <GridView
+        android:gravity="center"
+        android:id="@+id/color_chooser_layout"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:horizontalSpacing="@dimen/color_box_horizontal_spacing"
+        android:verticalSpacing="@dimen/color_box_vertical_spacing"
+        android:columnWidth="@dimen/color_box_width"
+        android:numColumns="6"
+        android:background="#55555555"
+        />
+</LinearLayout>

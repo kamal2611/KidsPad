@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/rubber_chooser_view"
+    android:padding="@dimen/rubber_margin"
+    android:horizontalSpacing="0dip"
+    android:verticalSpacing="0dip"
+    android:columnWidth="@dimen/rubber_chooser_width"
+    android:numColumns="5"
+    android:background="#55555555"
+    />
+
+
+

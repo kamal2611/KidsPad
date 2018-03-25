@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/select_all_menu"
+        android:title="@string/action_select_all"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+
+    <item android:id="@+id/share_menu"
+        android:title="@string/action_share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/delete_menu"
+        android:title="@string/action_delete"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="always" />
+
+<!--
+
+    <item android:id="@+id/mode_toggel_menu"
+        android:title="@string/action_change_mode"
+        android:orderInCategory="100"
+        android:icon="@drawable/kid_selected"
+        app:showAsAction="always"
+        android:actionLayout="@layout/mode_toggle_layout" />
+-->
+
+
+</menu>
+

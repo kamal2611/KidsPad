@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Kids Pad</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="doodle_galery">Gallery</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="action_share">Share Via</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_delete_all">Delete All</string>
+    <string name="action_select_all">Select All</string>
+    <string name="action_change_mode">Change Mode</string>
+
+
+    <string name="action_unselect_all">Unselect All</string>
+    <string name="share_using">Share Doodle Using</string>
+
+    <string name="enter_number">Enter Below Number For Disabling Child Mode</string>
+    <string name="del_conformation">Do You Really Want To Delete?</string>
+    <string name="new_conformation">Do You Really Want To Clear Current Canvas?</string>
+    <string name="enable_chl_mode_desc">Do You Really Want To Enable Child Mode?</string>
+    <string name="enable_chl_mode">Enable Child Mode</string>
+    <string name="disable_chl_mode">Disable Child Mode</string>
+    <string name="toast_save">Doodle Saved</string>
+    <string name="toast_no_pic">No Doodle Saved. Please Save Your Doodle</string>
+    <string name="toast_wrong_input">Entered Wrong Number</string>
+    <string name="toast_no_sel">Please Select Doodle</string>
+    <string name="enable_chl_mode_frt_desc">Want To Enable Child Mode?</string>
+    <string name="new_canvas_title">New Canvas</string>
+    <string name="op_not_allowed">This Operation is not Allowed in Play Mode</string>
+    <string name="permcard">This Operation needs SDCARD Write Permission, Please Grant.</string>
+
+
+    <string name="no_ads">No Ads For Kids</string>
+    <string name="disable_share">It Disables Doodle Sharing</string>
+    <string name="disable_delete">It Disables Doodle Delete</string>
+    <string name="disable_messenger">It Disables Doodle Send To Facebook Friends</string>
+    <string name="swtich_mode_option">Find Switch Mode Option By Clicking Doodle Gallery </string>
+
+
+    <string name="facebook_app_id">456799821165469</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5041765929517839/6419181709</string>
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+
+    <string name="zero">Zero</string>
+    <string name="one">One</string>
+    <string name="two">Two</string>
+    <string name="three">Three</string>
+    <string name="four">Four</string>
+    <string name="five">Five</string>
+    <string name="six">Six</string>
+    <string name="seven">Seven</string>
+    <string name="eight">Eight</string>
+    <string name="nine">Nine</string>
+
+
+    <string name="eleven">Eleven</string>
+    <string name="twelve">Twelve</string>
+    <string name="thirteen">Thirteen</string>
+    <string name="fourteen">Fourteen</string>
+    <string name="fifteen">Fifteen</string>
+    <string name="sixteen">Sixteen</string>
+    <string name="seventeen">Seventeen</string>
+    <string name="eighteen">Eighteen</string>
+    <string name="nineteen">Nineteen</string>
+
+    <string name="ten">Ten</string>
+    <string name="twenty">Twenty</string>
+    <string name="thirty">Thirty</string>
+    <string name="forty">Forty</string>
+    <string name="fifty">Fifty</string>
+    <string name="sixty">Sixty</string>
+    <string name="seventy">Seventy</string>
+    <string name="eighty">Eighty</string>
+    <string name="ninety">Ninety</string>
+
+    <string name="thousand">Thousand</string>
+    <string name="thousands">Thousands</string>
+    <string name="hundred">Hundred</string>
+    <string name="hundreds">Hundreds</string>
+
+
+</resources>

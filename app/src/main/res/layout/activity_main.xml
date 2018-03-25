@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_container"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="0dp">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="#55555555"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.0dip">
+
+            <drawingpad.doodle.vandu.kidspad.DoodleImageButton
+                android:id="@+id/choose_color"
+                android:layout_width="@dimen/tool_bar_width"
+                android:layout_height="@dimen/tool_bar_height"
+                android:padding="0dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/color_palette"
+                 />
+
+            <drawingpad.doodle.vandu.kidspad.DoodleImageButton
+                android:id="@+id/pad_new"
+                android:layout_width="@dimen/tool_bar_width"
+                android:layout_height="@dimen/tool_bar_height"
+                android:src="@drawable/page_add"
+                android:padding="0dp"
+                android:background="@android:color/transparent"
+                />
+
+
+            <drawingpad.doodle.vandu.kidspad.DoodleImageButton
+                android:id="@+id/color_eraser"
+                android:layout_width="@dimen/tool_bar_width"
+                android:layout_height="@dimen/tool_bar_height"
+                android:src="@drawable/erase_image"
+                android:padding="0dp"
+                android:background="@android:color/transparent"
+
+                />
+
+            <drawingpad.doodle.vandu.kidspad.DoodleImageButton
+                android:id="@+id/can_undo"
+                android:layout_width="@dimen/tool_bar_width"
+                android:layout_height="@dimen/tool_bar_height"
+                android:src="@drawable/undo_img"
+                android:padding="0dp"
+                android:background="@android:color/transparent"
+                />
+
+
+            <drawingpad.doodle.vandu.kidspad.DoodleImageButton
+                android:id="@+id/save_pic"
+                android:layout_width="@dimen/tool_bar_width"
+                android:layout_height="@dimen/tool_bar_height"
+                android:src="@drawable/save_drawable"
+                android:padding="0dp"
+                android:background="@android:color/transparent"
+                />
+
+            <drawingpad.doodle.vandu.kidspad.DoodleImageButton
+                android:id="@+id/pick_img"
+                android:layout_width="@dimen/tool_bar_width"
+                android:layout_height="@dimen/tool_bar_height"
+                android:src="@drawable/doodle_gallery"
+                android:padding="0dp"
+                android:background="@android:color/transparent"
+                />
+
+            <drawingpad.doodle.vandu.kidspad.DoodleImageButton
+                android:id="@+id/play_draw"
+                android:layout_width="@dimen/tool_bar_width"
+                android:layout_height="@dimen/tool_bar_height"
+                android:src="@drawable/play_doodle"
+                android:padding="0dp"
+                android:background="@android:color/transparent"
+                 />
+        </LinearLayout>
+
+        <drawingpad.doodle.vandu.kidspad.DoodleView
+            android:id="@+id/doodle_pad"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+
+
+
+
+    </LinearLayout>
+
+        <!--<com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>-->
+<!--
+    <include layout="@layout/messenger_button_send_blue_round"/>
+-->
+
+</RelativeLayout>
+
